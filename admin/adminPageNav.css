@@ -1,0 +1,78 @@
+
+    .status_online {
+        width: 15px;
+        height: 15px;
+        outline: 2px solid white;
+        background: green;
+        transform: translate(57px, -8px);
+    }
+    
+    .status_offline {
+        width: 15px;
+        height: 15px;
+        outline: 2px solid white;
+        background: grey;
+        transform: translate(57px, -8px);
+    }
+    
+    .dashboard { 
+        height: 100%;
+        background: #121212;
+        position: fixed;
+        left: 0;
+        top: 40px;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+
+
+  ::-webkit-scrollbar{
+    width:10px;
+    background:#121212;
+
+  }
+
+  ::-webkit-scrollbar-thumb{
+    border-radius:20px;
+    opacity:.7;
+    background:#dc3545;
+    width:2px;
+  }
+
+   ::-webkit-scrollbar-button{
+    display:none;
+   }
+
+   ::-webkit-scrollbar-corner{
+    display: none;
+   }
+
+   body{
+    background:#121212;
+    color:white;
+   }
+    
+    .dashboard::-webkit-scrollbar-thumb {
+        height: 40px;
+        background: #dc3545;
+        border-radius: 20px;
+    }
+    
+    .dashboard::-webkit-scrollbar-track {
+        width: 100px;
+    }
+    
+    .menu-items {
+        text-align: center;
+    }
+    
+    .data-area {
+        z-index: 1;
+        float: right;
+        position: static;
+        text-align: center;
+    }
+    
+  

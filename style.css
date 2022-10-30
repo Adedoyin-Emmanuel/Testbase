@@ -1,0 +1,33 @@
+.form {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+.form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.hamburger {
+    font-weight: bold;
+    display: inline;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.errorLog {
+    display: none;
+    font-size: 14px;
+}
+
+
+body{
+    background:#121212;
+    
+}

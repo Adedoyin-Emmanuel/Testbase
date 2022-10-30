@@ -1,0 +1,27 @@
+HOW TO CONFIGURE THE DATABASE WHEN YOU IMPORT IT TO ANOTHER SERVER
+
+
+
+STEP ONE
+
+By default, the database containing the tables you want to import doesn't exist
+
+so you have to create it 
+
+
+--SQL SYNTAX
+
+--CREATE THE DATABASE
+CREATE DATABASE test_cbt;
+
+STEP TWO
+By default, the SQL doesn't know the database you want to use so you have to tell it
+
+--SQL SYNTAX
+
+--SELECT THE DATABASE YOU WANT
+in this case, it is the database you just created above.
+USE test_cbt
+
+
+after this, save the .SQL file and reimport the file as a zip folder and it woudl import your database
